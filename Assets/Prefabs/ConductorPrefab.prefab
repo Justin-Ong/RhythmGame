@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7975012691163324380}
   - component: {fileID: 7298920271193005350}
   - component: {fileID: 1129403607685559900}
+  - component: {fileID: 8739232983356008717}
   m_Layer: 0
   m_Name: ConductorPrefab
   m_TagString: Untagged
@@ -144,6 +145,20 @@ MonoBehaviour:
   rms: 0
   rmsRef: 0.1
   db: 0
+  visualiserBarPrefab: {fileID: 7073708246748906129, guid: a25a306d4fbc3a144a08bb15e4de1964, type: 3}
   numObjects: 32
   scalingMod: 1000
   decreaseRate: 10
+  spectrum: []
+--- !u!114 &8739232983356008717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7563159753242972953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbffdb7b3773af6428d09117d6998ffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Conductor : MonoBehaviour
+public class Visualiser : MonoBehaviour
 {
     [Header("Audio Analysis")]
     public int sampleSize = 1024;
@@ -11,6 +11,7 @@ public class Conductor : MonoBehaviour
     public float db;
 
     [Header("Visualiser")]
+    public GameObject visualiserBarPrefab;
     public int numObjects = 32;
     public float scalingMod = 200;
     public float decreaseRate = 10;
@@ -31,9 +32,9 @@ public class Conductor : MonoBehaviour
         visualiserObjectTransforms = new Transform[numObjects];
         for (int i = 0; i < numObjects; i++)
         {
-            GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            cube.transform.position += Vector3.right * i;
-            visualiserObjectTransforms[i] = cube.transform;
+            GameObject visualiserBar = Instantiate(visualiserBarPrefab);
+            visualiserBar.transform.position += Vector3.right * i;
+            visualiserObjectTransforms[i] = visualiserBar.transform;
         }
     }
 
