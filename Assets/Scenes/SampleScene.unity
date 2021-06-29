@@ -273,5 +273,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8739232983356008717, guid: ba00dbfb3fbac9942aa6a2ce6f23d28c, type: 3}
+      propertyPath: numRails
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739232983356008717, guid: ba00dbfb3fbac9942aa6a2ce6f23d28c, type: 3}
+      propertyPath: notePrefab
+      value: 
+      objectReference: {fileID: 7821050244863672549, guid: 35eeb21f81215b74a8492146f0b62de9, type: 3}
+    - target: {fileID: 8739232983356008717, guid: ba00dbfb3fbac9942aa6a2ce6f23d28c, type: 3}
+      propertyPath: railPrefab
+      value: 
+      objectReference: {fileID: 524558754623009843, guid: 47bbb5716d503594aa371d54c8d81c30, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba00dbfb3fbac9942aa6a2ce6f23d28c, type: 3}
